@@ -1,0 +1,126 @@
+body{
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h1{
+  color: #66BFBF ;
+  font-size: 5.625rem;
+  line-height: 2;
+  margin:50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+h2{
+  font-weight: normal;
+  color: #66BFBF ;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 10PX;
+}
+h3{
+  color: #11999E ;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  line-height: 2;
+}
+
+hr{
+  border: dotted #EAF6F6;
+  border-bottom: none;
+  margin:100px auto;
+  width: 4%;
+}
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin:10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container{
+  margin: 100px 0;
+}
+
+.bottom-container{
+margin:auto;
+background-color: #66BFBF;
+padding: 50px 0 20px;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top:50px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.skill-row{
+  margin:100px auto 100px auto;
+  text-align: left;
+  width: 50%;
+
+}
+.unity-img{
+  width: 25%;
+  float:left;
+  margin-right: 30px;
+}
+
+.rog-img{
+  width:25%;
+  float: right;
+  margin-left: 30px;
+}
+.intro{
+  margin:auto;
+  width:30%;
+}
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn{
+  color: rgb(255, 255, 255);
+font-size: 20px;
+padding: 20px;
+text-shadow: 0px -1px 0px rgba(30, 30, 30, 0.8);
+-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
+background: rgb(50, 184, 184);
+background: -moz-linear-gradient(90deg, rgb(50, 184, 184) 100%, rgb(50, 156, 156) 78%);
+background: -webkit-linear-gradient(90deg, rgb(50, 184, 184) 100%, rgb(50, 156, 156) 78%);
+background: -o-linear-gradient(90deg, rgb(50, 184, 184) 100%, rgb(50, 156, 156) 78%);
+background: -ms-linear-gradient(90deg, rgb(50, 184, 184) 100%, rgb(50, 156, 156) 78%);
+background: linear-gradient(0deg, rgb(50, 184, 184) 100%, rgb(50, 156, 156) 78%);
+-webkit-box-shadow: 0px 0px 1px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 0px 1px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 0px 1px rgba(50, 50, 50, 0.75);
+text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
